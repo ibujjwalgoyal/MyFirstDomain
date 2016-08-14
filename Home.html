@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<style type="text/css">
+	@import 'https://fonts.googleapis.com/css?family=Denk+One';
+	@import 'https://fonts.googleapis.com/css?family=Pacifico';
+	@import 'https://fonts.googleapis.com/css?family=Pacifico|Shadows+Into+Light';
+
+	body{
+		margin: 0;
+	}
+	span1{
+		position: absolute;
+		color: white;
+		font-family: 'Pacifico', cursive;
+		font-size: 60px;	
+		z-index: 0;
+		top: 175px;
+		left: 415px;
+	}
+	span2{
+		position: absolute;
+		color: white;
+		font-family: 'Shadows Into Light', cursive;
+		padding-top: 10px;
+		z-index: 0;
+		top: 400px;
+		left: 520px;
+	}
+
+	a{
+		text-decoration:none;
+		color: white;
+	}
+
+	
+	#header table tr td a:hover{
+		color:grey;
+	}
+
+	#header {
+		background-color: rgba(0, 0, 0, 0);
+		position: fixed;
+		top: 0;
+		text-align:center;
+		right:0%;
+		left:0%;
+		height:40px;
+		padding-top: 10px;
+		}
+
+	#header table tr td{
+		font-family: 'Denk One', sans-serif;
+		color: white;
+	}
+
+	#home img{
+		position: relative;
+		width: 100%;
+		height: 660px;
+		z-index: -1;
+	}
+    
+    #home a:hover{
+    	color: White;
+    }
+	.fbutton{
+   		border: 2px solid #ddd;
+		background-color: rgba(0, 0, 0, 0);
+		font-family: 'Denk One', sans-serif;
+		color: white;
+		text-align: center;
+		height:35px;
+		width:110px;
+		margin-top:10px;
+	}
+
+	.fbutton:hover{
+		box-shadow: 0 0 3px white;
+	}
+
+	#footer {
+  		position: fixed;
+  		bottom: 0;
+  		left: 0%;
+  		right: 0%;
+  		height: 60px;
+  		background-color: rgba(0, 0, 0, 0);
+		}
+
+	#footer table tr td{
+		font-family: 'Denk One', sans-serif;
+		color: white;
+	}
+
+</style>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Welcome To My Domain</title>
+	</head>
+	<body>
+		  <div id="header">
+    		<table align=Right cellpadding="20px">
+         	<tr>
+          		<td><a href="home.html">Home</a></td>
+          		<td><a href="test.html">Profile</a></td>
+          		<td><a href="#">Home</a></td>
+          		<td><a href="#">About</a></td>
+          		<td><a href="#">Contact</a></td>
+          		<td style="padding-bottom: 25px;"><input class="fbutton"type="Submit" name="FeedBack" value="FeedBack"></td>
+        	</tr>
+    		</table>
+  		</div>
+  		<div id="home">
+  			<img src="new folder/Macbook_Air_uhd.jpg">
+  			<span1><center>Hey. Glad You're</center><center>Here!</center></span1>
+  			<center><span2>Keep scrolling for a little about me.....<span2></center>
+  		</div>
+  		<div id="footer">
+  			<table align=left>
+         	<tr>
+        	</tr>
+    		</table>	
+  		</div>
+	</body>
+</html>
